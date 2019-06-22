@@ -19,7 +19,7 @@
             android:contentDescription="@string/altBackgroundMain"
             android:fadingEdge="vertical"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/silhueta" />
+            app:srcCompat="@drawable/img_naruto_silhueta" />
 
     </FrameLayout>
 

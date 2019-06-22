@@ -38,5 +38,7 @@
     <string name="bt_info">Sobre o App</string>
 
     <!-- Strings de Descrição -->
-    <string name="altBackgroundMain">Fundo da Tela Principal</string>
+    <string name="altBackgroundMain">[Silhueta Dourada Naruto] - Imagem Componente do Fundo da
+        Tela Principal</string>
+    <string name="altBackgroundTitle">[Titulo do App] - Mensagem de Boas-Vindas e Título do App</string>
 </resources>
