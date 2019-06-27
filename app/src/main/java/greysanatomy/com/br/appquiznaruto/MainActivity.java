@@ -24,51 +24,10 @@ public class MainActivity extends AppCompatActivity {
 
         btnStart = (Button) findViewById(R.id.btnStart);
         btnInfo = (Button) findViewById(R.id.btnInfo);
-
-        btnStart.setOnTouchListener(new View.OnTouchListener() {
-
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if(event.getAction() == ACTION_DOWN){
-                    btnStart.setBackground(getResources().getDrawable(R.drawable.botao_design2));
-                    btnStart.setTextColor(getResources().getColor(R.color.colorAccent));
-                }
-                else if(event.getAction() == ACTION_UP){
-                    btnStart.setBackground(getResources().getDrawable(R.drawable.botao_design1));
-                    btnStart.setTextColor(getResources().getColor(R.color.color3));
-                }
-                return false;
-            }
-        });
-
-        btnInfo.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if(event.getAction() == ACTION_DOWN){
-                    btnInfo.setCompoundDrawablesRelativeWithIntrinsicBounds(
-                            getResources().getDrawable(R.drawable.ic_naruto_symbol2),
-                            null,
-                            null,
-                            null);
-                    btnInfo.setBackground(getResources().getDrawable(R.drawable.botao_design2));
-                    btnInfo.setTextColor(getResources().getColor(R.color.colorAccent));
-                }
-                else if(event.getAction() == ACTION_UP){
-                    btnInfo.setCompoundDrawablesRelativeWithIntrinsicBounds(
-                            getResources().getDrawable(R.drawable.ic_folha_symbol),
-                            null,
-                            null,
-                            null);
-                    btnInfo.setBackground(getResources().getDrawable(R.drawable.botao_design1));
-                    btnInfo.setTextColor(getResources().getColor(R.color.color3));
-                }
-                return false;
-            }
-        });
     }
 
     public void startQuiz(View v){
-        Intent next = new Intent(MainActivity.this, User.class);
+        Intent next = new Intent(MainActivity.this, Pergunta1.class);
         startActivity(next);
     }
 }

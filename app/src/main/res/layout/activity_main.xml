@@ -52,13 +52,15 @@
             android:layout_height="wrap_content"
             android:paddingEnd="20dp"
             android:paddingStart="20dp"
+            android:onClick="Pergunta1"
             android:layout_row="1"
             android:layout_column="0"
             android:layout_rowWeight="1"
             android:layout_gravity="center"
             android:background="@drawable/botao_design1"
             android:drawableEnd="@drawable/ic_naruto_temaki"
-            android:text="@string/bt_comeco" />
+            android:text="@string/bt_comeco"
+            tools:ignore="OnClick" />
 
         <Button
             android:id="@+id/btnInfo"
