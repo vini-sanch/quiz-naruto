@@ -35,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
         Intent next = new Intent(c, TelaUser.class);
 
         //indo para a próxima tela
+    }
+
+    public void startQuiz(View v){
+        Intent next = new Intent(MainActivity.this, Pergunta1.class);
         startActivity(next);
     }
 }

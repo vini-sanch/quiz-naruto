@@ -3,37 +3,44 @@
     <string name="app_name">Quiz Naruto</string>
 
     <!-- Perguntas e Alternativas -->
+    <string name="pergunta1"> Pergunta 1</string>
     <string name="pa">Quem é o irmão da Tsunade? </string>
     <string name="ra1">Nawaki Senju </string>
     <string name="ra2">Dan Katō</string>
     <string name="ra3">Tobirama Senju</string>
     <string name="ra4">Tōka Senju</string>
+    <string name="pergunta2"> Pergunta 2</string>
     <string name="pb">Quem é o homem mascarado?</string>
     <string name="rb1">Shisui Uchiha</string>
     <string name="rb2">Izuna Uchiha</string>
     <string name="rb3">Obito Uchiha </string>
     <string name="rb4">Fugaku Uchiha </string>
+    <string name="pergunta3"> Pergunta 3</string>
     <string name="pc">Qual é a frase icônica que o Naruto diz para o Neji na sua luta no exame Chunnin? </string>
     <string name="rc1">Não importa o quão grande seja a dor, eu continuarei seguindo em frente. </string>
     <string name="rc2">Eu nunca volto atrás na minha palavra... Esse é o meu jeito ninja de ser!</string>
     <string name="rc3">As pessoas se tornam mais fortes, porque elas têm memórias que não podem esquecer</string>
     <string name="rc4">Porque um dia me chamaram de fracassado </string>
+    <string name="pergunta4"> Pergunta 4</string>
     <string name="pd">Qual é a vila oculta que o personagem Hidan pertencia? </string>
     <string name="rd1">Vila Oculta da Cachoeira</string>
     <string name="rd2">Vila Oculta das Fontes Termais</string>
     <string name="rd3">Vila Oculta do Som</string>
     <string name="rd4">Vila Oculta da Névoa</string>
+    <string name="pergunta5"> Pergunta 5</string>
     <string name="pe">Qual era o objetivo inicial da Akatsuki?</string>
     <string name="re1">Para capturar as bijuus e criar uma arma de destruição em massa</string>
     <string name="re2">Para estabelecer a paz em Amegakure durante o período da Terceira Grande
         Guerra ninja</string>
     <string name="re3">Para lançar um Tsukuyomi Infinito no mundo</string>
     <string name="re4">Para servir como um grupo de ninjas mercenários para as nações shinobis</string>
+    <string name="pergunta6"> Pergunta 6</string>
     <string name="pf">Quem diz esta frase "Se você não tem razão para estar vivo, é o mesmo que estar morto"?</string>
     <string name="rf1">Naruto Uzumaki</string>
     <string name="rf2">Itachi Uchiha</string>
     <string name="rf3">Gaara</string>
     <string name="rf4">Hiruzen Sarutobi</string>
+    <string name="btn_proximo"> Próximo</string>
 
     <!-- Strings de Componentes -->
     <string name="bt_comeco">Começar</string>
