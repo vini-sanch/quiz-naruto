@@ -1,6 +1,8 @@
 <resources>
-    <!-- Perguntas e Alternativas -->
+    <!-- Título do App -->
     <string name="app_name">Quiz Naruto</string>
+
+    <!-- Perguntas e Alternativas -->
     <string name="pa">Quem é o irmão da Tsunade? </string>
     <string name="ra1">Nawaki Senju </string>
     <string name="ra2">Dan Katō</string>
@@ -36,8 +38,24 @@
     <!-- Strings de Componentes -->
     <string name="bt_comeco">Começar</string>
     <string name="bt_info">Sobre o App</string>
+    <string name="bt_proximo">Próximo</string>
+    <string name="edt_nome_user">Digite o Seu Nome de Usuário Aqui</string>
+
+    <!-- Textos da Tela de Informações -->
+    <string name="info_title">Informações do App</string>
+    <string name="info_nome1">Evilin Pimentel</string>
+    <string name="info_nome2">Vinícius Santachiara</string>
+    <string name="rm1">17216</string>
+    <string name="rm2">16078</string>
+    <string name="info_serie">2º D.S.</string>
+    <string name="info_escola">ETEC de Francisco Morato</string>
+    <string name="info_label_nomes">  Integrantes:</string>
+    <string name="rm">  RM:</string>
+    <string name="info_label_serie">  Série:</string>
+    <string name="info_label_escola">  Escola:</string>
 
     <!-- Strings de Descrição -->
+    <string name="infoIcon">Tela de Informações</string>
     <string name="altBackgroundMain">[Silhueta Dourada Naruto] - Imagem Componente do Fundo da
         Tela Principal</string>
     <string name="altBackgroundTitle">[Titulo do App] - Mensagem de Boas-Vindas e Título do App</string>

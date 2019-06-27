@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grdLayoyt"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:alignmentMode="alignBounds"
+    android:animateLayoutChanges="true"
     android:background="@color/color1"
+    android:clipToPadding="false"
+    android:columnCount="2"
+    android:orientation="vertical"
+    android:rowCount="6"
     tools:context=".MainActivity">
 
-    <GridLayout
-        android:id="@+id/gridLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:alignmentMode="alignBounds"
-        android:animateLayoutChanges="true"
-        android:clipToPadding="false"
-        android:columnCount="2"
-        android:orientation="vertical"
-        android:rowCount="6">
+    <ImageView
+        android:id="@+id/imgSilhueta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="3"
+        android:layout_column="1"
+        android:layout_gravity="end"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/altBackgroundMain"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/img_naruto_silhueta" />
 
-        <ImageView
-            android:id="@+id/imgSilhueta"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_rowSpan="3"
-            android:layout_column="1"
-            android:layout_gravity="end"
-            android:adjustViewBounds="true"
-            android:contentDescription="@string/altBackgroundMain"
-            android:cropToPadding="true"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/img_naruto_silhueta" />
+    <ImageView
+        android:id="@+id/imgTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_rowWeight="3"
+        android:layout_column="0"
+        android:layout_gravity="fill_vertical"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/altBackgroundTitle"
+        android:maxWidth="@android:dimen/thumbnail_width"
+        android:maxHeight="@android:dimen/thumbnail_height"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/img_titulo" />
 
-        <ImageView
-            android:id="@+id/imgTitulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:layout_column="0"
-            android:layout_rowWeight="3"
-            android:layout_gravity="fill_vertical"
-            android:adjustViewBounds="true"
-            android:contentDescription="@string/altBackgroundTitle"
-            android:maxWidth="@android:dimen/thumbnail_width"
-            android:maxHeight="@android:dimen/thumbnail_height"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/img_titulo" />
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:background="@drawable/botao_estilizado"
+        android:drawableEnd="@drawable/ic_naruto_temaki"
+        android:focusableInTouchMode="true"
+        android:onClick="nextUser"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/bt_comeco" />
 
-        <Button
-            android:id="@+id/btnStart"
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:paddingEnd="20dp"
-            android:paddingStart="20dp"
-            android:layout_row="1"
-            android:layout_column="0"
-            android:layout_rowWeight="1"
-            android:layout_gravity="center"
-            android:background="@drawable/botao_design1"
-            android:drawableEnd="@drawable/ic_naruto_temaki"
-            android:text="@string/bt_comeco" />
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:background="@drawable/botao_estilizado"
+        android:drawableStart="@drawable/ic_naruto_temaki"
+        android:focusable="true"
+        android:onClick="nextInfo"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/bt_info" />
 
-        <Button
-            android:id="@+id/btnInfo"
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_gravity="center"
-            android:background="@drawable/botao_design1"
-            android:drawableStart="@drawable/ic_folha_symbol"
-            android:paddingStart="20dp"
-            android:paddingEnd="20dp"
-            android:text="@string/bt_info" />
-    </GridLayout>
-</android.support.constraint.ConstraintLayout>
+</GridLayout>

@@ -6,7 +6,12 @@
 
     <solid android:color="@color/color3" />
 
+
+    <size android:width="200dp" android:height="50dp">
+
+    </size>
+
     <stroke
         android:width="3dp"
-        android:color="@android:color/background_light"/>
+        android:color="@color/color3"/>
 </shape>
