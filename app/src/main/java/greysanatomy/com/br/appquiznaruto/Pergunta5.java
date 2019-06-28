@@ -34,7 +34,7 @@ public class Pergunta5 extends AppCompatActivity {
                 int op = rgPergunta5.getCheckedRadioButtonId();
 
                 if(op != -1){
-                    if (op == R.id.rbPerguntaC4){
+                    if (op == R.id.rbPerguntaE2){
                         pontos += 2;
                     }
 

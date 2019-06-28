@@ -39,13 +39,13 @@ public class Pergunta6 extends AppCompatActivity {
 
 
                 if(op != -1){
-                    if (op == R.id.rbPerguntaC4){
+                    if (op == R.id.rbPerguntaF3){
                         pontos += 2;
                     }
 
                     cadastrarJogador();
                 }
-                else if(op == -1){
+                else{
                         Toast.makeText(Pergunta6.this, "Por Favor, selecione uma opção!", Toast.LENGTH_SHORT).show();
                 }
 

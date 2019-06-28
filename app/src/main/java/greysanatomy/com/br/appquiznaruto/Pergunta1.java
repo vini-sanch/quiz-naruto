@@ -32,7 +32,7 @@ public class Pergunta1 extends AppCompatActivity {
                 int pontos = 0;
 
                 if(op != -1){
-                    if (op == R.id.rbPerguntaC4){
+                    if (op == R.id.rbPerguntaA1){
                         pontos += 2;
                     }
 
