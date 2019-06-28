@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 public class Pergunta4 extends AppCompatActivity {
 
@@ -21,7 +22,7 @@ public class Pergunta4 extends AppCompatActivity {
         setContentView(R.layout.activity_pergunta4);
         Intent i = getIntent();
 
-        rgPergunta4=(RadioGroup) findViewById(R.id.rgPergunta5);
+        rgPergunta4=(RadioGroup) findViewById(R.id.rgPergunta4);
         btnProximo4=(Button) findViewById(R.id.btnProximo4);
 
         Bundle valores = i.getExtras();
@@ -33,20 +34,19 @@ public class Pergunta4 extends AppCompatActivity {
             public void onClick(View view) {
                 int op = rgPergunta4.getCheckedRadioButtonId();
 
-                if (op == R.id.rbPerguntaD2){
-                    pontos += 2;
-                }
+                if(op != -1){
+                    if (op == R.id.rbPerguntaC4){
+                        pontos += 2;
+                    }
 
+                    Intent i = new Intent(Pergunta4.this, Pergunta5.class);
+                    i.putExtra("user", nomeUser);
+                    i.putExtra("pontos", pontos);
+                    startActivity(i);
+                }
                 else{
-                    pontos += 0;
+                    Toast.makeText(Pergunta4.this, "Por Favor, selecione uma opção!", Toast.LENGTH_SHORT).show();
                 }
-
-                Intent i =  new Intent();
-                i.putExtra("user", nomeUser);
-                i.putExtra("pontos", pontos);
-
-                Intent next = new Intent(Pergunta4.this, Pergunta5.class);
-                startActivity(next);
             }
         });
     }

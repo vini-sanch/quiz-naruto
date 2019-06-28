@@ -85,6 +85,8 @@
         android:id="@+id/btnProximo3"
         android:layout_width="@android:dimen/thumbnail_width"
         android:layout_height="wrap_content"
+        android:background="@drawable/botao_estilizado2"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_gravity="center"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"

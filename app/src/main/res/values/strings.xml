@@ -29,11 +29,11 @@
     <string name="rd4">Vila Oculta da Névoa</string>
     <string name="pergunta5"> Pergunta 5</string>
     <string name="pe">Qual era o objetivo inicial da Akatsuki?</string>
-    <string name="re1">Para capturar as bijuus e criar uma arma de destruição em massa</string>
-    <string name="re2">Para estabelecer a paz em Amegakure durante o período da Terceira Grande
+    <string name="re1">Capturar as bijuus e criar uma arma de destruição em massa</string>
+    <string name="re2">Estabelecer a paz em Amegakure durante o período da Terceira Grande
         Guerra ninja</string>
-    <string name="re3">Para lançar um Tsukuyomi Infinito no mundo</string>
-    <string name="re4">Para servir como um grupo de ninjas mercenários para as nações shinobis</string>
+    <string name="re3">Lançar um Tsukuyomi Infinito no mundo</string>
+    <string name="re4">Servir como um grupo de ninjas mercenários para as nações shinobis</string>
     <string name="pergunta6"> Pergunta 6</string>
     <string name="pf">Quem diz esta frase "Se você não tem razão para estar vivo, é o mesmo que estar morto"?</string>
     <string name="rf1">Naruto Uzumaki</string>
@@ -47,6 +47,9 @@
     <string name="bt_info">Sobre o App</string>
     <string name="bt_proximo">Próximo</string>
     <string name="edt_nome_user">Digite o Seu Nome de Usuário Aqui</string>
+    <string name="txt_ranking">RANKING</string>
+    <string name="btn_home">Reiniciar</string>
+    <string name="bt_home">Reiniciar</string>
 
     <!-- Textos da Tela de Informações -->
     <string name="info_title">Informações do App</string>

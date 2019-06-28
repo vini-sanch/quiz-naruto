@@ -43,7 +43,7 @@ public class JogadorDAO extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public long salvarPessoa(Jogador j){
+    public long salvarJogador(Jogador j){
         ContentValues valores = new ContentValues();
         long retornoDB;
 
@@ -55,13 +55,12 @@ public class JogadorDAO extends SQLiteOpenHelper {
         return retornoDB;
     }
 
-    public ArrayList<Jogador> selectAllPessoa(){
+    public ArrayList<Jogador> selectAllJogador(){
         String[] colunas = {ID, NOME, PONTOS};
 
         //EXIBIR NA ORDEM DE PONTUAÇÃO
-        Cursor cursor = getWritableDatabase()
-                .query(TABELA, colunas, null, null,
-                        null, null, "pontos", null);
+        Cursor cursor = getWritableDatabase().query(TABELA, colunas, null, null,
+                        null, null, "pontos DESC", null);
 
         ArrayList<Jogador> listJogador = new ArrayList<Jogador>();
 

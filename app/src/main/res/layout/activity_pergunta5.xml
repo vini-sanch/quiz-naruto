@@ -8,6 +8,25 @@
     android:background="@color/color3"
     tools:context=".Pergunta5">
 
+    <LinearLayout
+        android:id="@+id/menu_app"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/color1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            app:srcCompat="@mipmap/ic_naruto_title" />
+
+    </LinearLayout>
+
     <TextView
         android:id="@+id/textView8"
         android:text="@string/pergunta5"
@@ -92,6 +111,8 @@
         android:padding="5dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@drawable/botao_estilizado2"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_weight="0"
         android:text="@string/btn_proximo"
         android:textSize="18sp" />

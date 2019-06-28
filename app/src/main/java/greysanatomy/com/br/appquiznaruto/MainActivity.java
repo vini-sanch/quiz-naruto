@@ -29,16 +29,10 @@ public class MainActivity extends AppCompatActivity {
 
     // Indo para a tela de usuário
     public void nextUser(View v){
-        //pegando o contexto da div (A activity que chamou o evento)
-        Context c = v.getContext();
         //Instanciando o objeto next que fará a transição para a próxima tela
-        Intent next = new Intent(c, TelaUser.class);
+        Intent next = new Intent(MainActivity.this, TelaUsuario.class);
 
         //indo para a próxima tela
-    }
-
-    public void startQuiz(View v){
-        Intent next = new Intent(MainActivity.this, Pergunta1.class);
         startActivity(next);
     }
 }

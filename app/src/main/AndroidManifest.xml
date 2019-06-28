@@ -11,9 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".TelaUser" />
+        <activity android:name=".TelaUsuario" />
+        <activity android:name=".TelaRanking" />
         <activity android:name=".TelaInfo" />
-
         <activity android:name=".Pergunta6" />
         <activity android:name=".Pergunta5" />
         <activity android:name=".Pergunta4" />
